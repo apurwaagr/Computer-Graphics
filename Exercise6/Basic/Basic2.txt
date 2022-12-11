@@ -1,0 +1,3 @@
+b) The drawn triangle is not correct. A interpolation method, which would result in this, would be Linear interpolation.
+
+c) The drawn triangle is correct.
