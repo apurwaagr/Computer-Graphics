@@ -1,0 +1,5 @@
+When the number of line segments is very small, it can happen, that the shiny effect of the specular lighting completely disappears.
+This is because, at Flat and Gouraud Shading it is not calculated a light value for every pixel, but only for a complete line segment (Flat), or only for every vertex (Gouraud).
+With a small number of line segments it can happen that no line segment or vertex is exactly in the middle of the screen (for example when the number of line segments is even), where the shiny effect should appear, 
+and so the effect does not appear anywhere.
+At Phong Shading the problem does not occur because there a light for every pixel is calculated.
