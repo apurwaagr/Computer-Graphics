@@ -1,0 +1,7 @@
+Cons:
+- The Recursive Flood Fill Algorithm is absolutely inefficient. One also has to find a seed point. Techniques such as choosing a random seed point can lead to higher recursion trees.
+- On top of that no shading is possible (just one color)
+
+Pros:
+- The algorithm is simple to understand and short
+- The algorithm is correct
